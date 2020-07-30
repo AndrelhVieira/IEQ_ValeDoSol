@@ -24,13 +24,20 @@ nav li:hover{
     -webkit-transform: translateX(-3px);
     transform: translateX(-3px);
 }
-#subtitle{
+#title-quem-somos{
     font-family: "lemon";
     color: lavender;
     font-size: 60px;
 }
-#text{
+#text-quem-somos{
     color: lavender;
     text-align: justify;
     margin: 0px 50px;
+}
+#subtitle{
+    font-family: "lemon";
+    color: #343a40;
+    font-size: 40px;
+    border-bottom: 3px solid #343a40;
+    padding-bottom: 10px;
 }

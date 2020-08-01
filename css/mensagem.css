@@ -8,6 +8,12 @@ html{
 header{
     transition-duration: 0.5s;
 }
+article{
+    background-image: url(../img/bg-bible.jpeg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
 @font-face{
     font-family: "lemon";
     src: url(../fonts/LEMONMILK-Medium.woff);
@@ -24,35 +30,19 @@ nav li:hover{
     -webkit-transform: translateX(-3px);
     transform: translateX(-3px);
 }
-.title-text{
-    font-family: "lemon";
-    color: lavender;
-    font-size: 60px;
-}
-#text-quem-somos{
-    color: lavender;
-    text-align: justify;
-    margin: 0px 50px;
-}
 #subtitle{
     font-family: "lemon";
-    color: #343a40;
-    font-size: 40px;
-    border-bottom: 3px solid #343a40;
+    color: lavender;
+    font-size: 80px;
     padding-bottom: 10px;
-}
-.text-equipe{
-    font-size: 25px;
-    margin: 10px 0px;
 }
 footer{
     text-align: center;
 }
-#mensagem{
-    background-image: url(../img/bg-bible.jpeg);
-    background-position: center;
-    background-size: cover;
-}
 @media screen and (max-width: 572px) {
     #title-ieq {font-size: 17px;}
+}
+#mensagem{
+    background-color: rgba(230, 230, 250, 0.7);
+    border-radius: 10px;
 }

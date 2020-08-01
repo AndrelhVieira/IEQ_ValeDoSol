@@ -42,16 +42,31 @@
                     alt="Logo IEQ Vale do Sol" loading="lazy">
                 Igreja do Evangelho Quadrangular
             </a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
                         <a class="nav-link" href="#">Início</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Ministérios</a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Ministérios
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Liga Teen</a>
+                            <a class="dropdown-item" href="#">Liga Jovem</a>
+                            <a class="dropdown-item" href="#">Ministérios das Mulheres</a>
+                            <a class="dropdown-item" href="#">Ministérios dos Homens</a>
+                        </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Horários dos Cultos</a>
+                        <a class="nav-link" href="#locale-horarios">Horários dos Cultos</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Redes Sociais</a>
@@ -98,7 +113,11 @@
 
         <h2 class="mx-auto" id="title-quem-somos">Quem Somos</h2>
         <p id="text-quem-somos">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis ut sint nobis. Eius voluptatem sequi deleniti recusandae veritatis, vero ab repellendus exercitationem, dolorum ad, voluptatum ipsa eos totam inventore impedit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod totam quae iusto minus quos ipsum qui, obcaecati voluptatibus architecto harum debitis temporibus dolores rem molestiae aspernatur officia eos iure deserunt?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis ut sint nobis. Eius voluptatem sequi
+            deleniti recusandae veritatis, vero ab repellendus exercitationem, dolorum ad, voluptatum ipsa eos totam
+            inventore impedit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod totam quae iusto minus quos
+            ipsum qui, obcaecati voluptatibus architecto harum debitis temporibus dolores rem molestiae aspernatur
+            officia eos iure deserunt?
         </p>
 
     </section>
@@ -106,16 +125,93 @@
     <article class="container my-5">
 
         <!-- Equipe Ministerial -->
-        <section>
+        <section class="mb-5" id="locale-equipe">
 
             <h2 class="text-center" id="subtitle" style="color: #343a40;">Equipe Ministerial</h2>
 
-            
+            <div class="row text-center">
+                <div class="col">
+                    <h4 class="text-equipe">Pr. José Luiz</h4>
+                    <h4 class="text-equipe">Pr. Erivaldo e Pra. Daniela</h4>
+                </div>
+                <div class="col">
+                    <h4 class="text-equipe">Pr. Luiz Claudio e Pra. Poliana</h4>
+                    <h4 class="text-equipe">Pr. Mário e Pra. Fátima</h4>
+                </div>
+            </div>
 
         </section>
 
+        <!-- Horários dos Cultos -->
+        <section class="mb-5" id="locale-horarios">
+
+            <h2 class="text-center" id="subtitle" style="color: #343a40;">Horários dos Cultos</h2>
+
+            <div class="row mt-3">
+
+                <div class="col my-2">
+                    <div class="card text-white bg-dark">
+                        <div class="card-header">Terça-Feira</div>
+                        <div class="card-body">
+                            <h5 class="card-title">Culto de Oração</h5>
+                            <p class="card-text">Às 20:00 horas com o Pastor Erivaldo</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col my-2">
+                    <div class="card text-white bg-dark">
+                        <div class="card-header">Quinta-Feira</div>
+                        <div class="card-body">
+                            <h5 class="card-title">Três Batidas na Porta da Graça</h5>
+                            <p class="card-text">Às 20:00 horas com o Pastor Mário</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row">
+
+                <div class="col my-2">
+                    <div class="card text-white bg-dark">
+                        <div class="card-header">Sábado</div>
+                        <div class="card-body">
+                            <h5 class="card-title">Liga Teen & Liga Jovem</h5>
+                            <p class="card-text">Às 20:00 horas - Online</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col my-2">
+                    <div class="card text-white bg-dark">
+                        <div class="card-header">Domingo</div>
+                        <div class="card-body">
+                            <h5 class="card-title">Culto de Celebração</h5>
+                            <p class="card-text">Às 9:30 e 18:00 horas com o Pastor Boás</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+
+
     </article>
 
+    <!-- Rodapé -->
+    <footer class="row mx-auto my-auto py-4 bg-dark">
+        <div class="col-md-3 col-sm-6 my-auto">
+            <img src="img/logo-26ieq-white.png" width="100px">
+        </div>
+        <div class="col-md-6 d-none d-md-block my-auto">
+            <h3 class="text-white">26ª Igreja do Evangelho Quadrangular</h3>
+            <h5 class="text-white">Vale do Sol</h5>
+        </div>
+        <div class="col-md-3 col-sm-6 d-none d-sm-block my-auto">
+            <img src="img/logo-ieq-valle-do-sol-white.png" width="150px">
+        </div>
+    </footer>
 
     <script src="js/menu.js"></script>
 

@@ -53,6 +53,13 @@ footer{
     background-position: center;
     background-size: cover;
 }
+.text-redes-sociais{
+    font-family: "lemon";
+}
+.fab{
+    font-size: 50px;
+    margin: 0px 20px;
+}
 @media screen and (max-width: 572px) {
     #title-ieq {font-size: 17px;}
 }

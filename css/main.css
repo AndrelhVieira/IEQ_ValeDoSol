@@ -53,12 +53,40 @@ footer{
     background-position: center;
     background-size: cover;
 }
-.text-redes-sociais{
+.text{
     font-family: "lemon";
 }
 .fab{
     font-size: 50px;
     margin: 0px 20px;
+}
+.fa-facebook{
+    color: #3b5998;
+}
+.fa-instagram{
+    color: #517fa4;
+}
+.fa-whatsapp{
+    color: #34af23;
+}
+.fa-youtube{
+    color: #bb0000;
+}
+.fa-facebook:hover{
+    color: #0e3996;
+}
+.fa-instagram:hover{
+    color: #1d66a1;
+}
+.fa-whatsapp:hover{
+    color: #217017;
+}
+.fa-youtube:hover{
+    color: #7c0606;
+}
+a:link{
+    text-decoration: none;
+    outline: none;
 }
 @media screen and (max-width: 572px) {
     #title-ieq {font-size: 17px;}

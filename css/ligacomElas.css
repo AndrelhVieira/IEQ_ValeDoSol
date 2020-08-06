@@ -2,6 +2,13 @@
     margin: 0;
     padding: 0;
 }
+a:link{
+    text-decoration: none;
+    outline: none;
+}
+footer{
+    text-align: center;
+}
 html{
     scroll-behavior: smooth;
 }
@@ -24,34 +31,22 @@ nav li:hover{
     -webkit-transform: translateX(-3px);
     transform: translateX(-3px);
 }
-.title-text{
+.subtitle{
     font-family: "lemon";
-    color: lavender;
-    font-size: 60px;
+    font-size: 50px;
+    margin-top: 5px;
+    margin-bottom: 25px;
 }
-#text-quem-somos{
-    color: lavender;
-    text-align: justify;
-    margin: 0px 50px;
+body{
+    background-image: url(../img/bg-ligacomElas.jpg);
+    background-repeat: repeat;
 }
-#subtitle{
-    font-family: "lemon";
-    color: #343a40;
-    font-size: 40px;
-    border-bottom: 3px solid #343a40;
-    padding-bottom: 10px;
-}
-.text-equipe{
-    font-size: 25px;
-    margin: 10px 0px;
-}
-footer{
-    text-align: center;
-}
-#mensagem{
-    background-image: url(../img/bg-bible.jpeg);
-    background-position: center;
-    background-size: cover;
+#text-sobre{
+    background-color: rgb(112, 112, 112);
+    padding: 15px 30px;
+    border-radius: 7px;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .text{
     font-family: "lemon";
@@ -84,7 +79,16 @@ footer{
 .fa-youtube:hover{
     color: #7c0606;
 }
-a:link{
-    text-decoration: none;
-    outline: none;
+#subtitle{
+    font-family: "lemon";
+    color: #343a40;
+    font-size: 40px;
+    border-bottom: 3px solid #343a40;
+    padding-bottom: 10px;
+}
+#mapa-redes{
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 30px;
 }

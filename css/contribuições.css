@@ -39,8 +39,13 @@ nav li:hover{
 footer{
     text-align: center;
 }
-@media screen and (max-width: 572px) {
-    #title-ieq {font-size: 17px;}
+.dropdown:hover .dropdown-menu {
+    display: block;
+    position: absolute;
+    transform: translate3d(5px, 28px, 0px); /* distancia entre menu e btn */
+    top: 0px;
+    left: 0px;
+    will-change: transform;
 }
 .text{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;

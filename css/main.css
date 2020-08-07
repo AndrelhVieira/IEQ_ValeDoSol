@@ -12,6 +12,14 @@ header{
     font-family: "lemon";
     src: url(../fonts/LEMONMILK-Medium.woff);
 }
+@font-face{
+    font-family: "gumela";
+    src: url(../fonts/GumelaRegular.woff);
+}
+@font-face{
+    font-family: "phi";
+    src: url(../fonts/Philosopher.woff);
+}
 nav li{
     margin: 0px 5px;
     transition-duration: 0.5s;
@@ -28,13 +36,13 @@ nav li:hover{
     font-family: "lemon";
     color: lavender;
     font-size: 60px;
+    text-align: center;
 }
 #text-quem-somos{
     color: lavender;
-    text-align: justify;
-    margin: 0px 50px;
+    text-align: justify
 }
-#subtitle{
+.subtitle{
     font-family: "lemon";
     color: #343a40;
     font-size: 40px;
@@ -43,7 +51,8 @@ nav li:hover{
 }
 .text-equipe{
     font-size: 25px;
-    margin: 10px 0px;
+    margin: 15px 0px;
+    font-family: "phi";
 }
 footer{
     text-align: center;
@@ -87,4 +96,45 @@ footer{
 a:link{
     text-decoration: none;
     outline: none;
+}
+.icone{
+    margin: 20px 0px;
+}
+.icone:hover{
+    transform: scale(1.2);
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+.card-body{
+    padding: 25px;
+}
+body{
+    background-attachment: fixed;
+    background-image: url(../img/bg-index.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#clique-aqui{
+    color: lavender;
+    text-align: center;
+}
+
+/* Alterações Baseadas na mudança de tamanho */
+
+/* Celular */
+@media screen and (max-width: 345px) {
+    #logo {width: 150px;}
+    .icone {width: 75px;}
+    .subtitle {font-size: 30px;}
+    .title-simbol {font-size: 25px;}
+}
+@media screen and (max-width: 800px) {
+    .icone {margin: 20px 0px;}
+}
+@media screen and (max-width: 470px) {
+    .title-text {font-size: 40px;}
+    .fab {font-size: 40px;}
+}
+@media screen and (max-width: 992px) {
+    #Siga-nos {margin-bottom: 30px;}
 }

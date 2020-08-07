@@ -30,7 +30,7 @@ nav li:hover{
     -webkit-transform: translateX(-3px);
     transform: translateX(-3px);
 }
-.subtitle{
+#subtitle{
     font-family: "lemon";
     color: lavender;
     font-size: 80px;
@@ -39,20 +39,14 @@ nav li:hover{
 footer{
     text-align: center;
 }
-.dropdown:hover .dropdown-menu {
-    display: block;
-    position: absolute;
-    transform: translate3d(5px, 28px, 0px); /* distancia entre menu e btn */
-    top: 0px;
-    left: 0px;
-    will-change: transform;
-}
 #mensagem{
     background-color: rgba(230, 230, 250, 0.7);
     border-radius: 10px;
+    padding: 0px 25px;
 }
 .text{
     font-family: "lemon";
+    color: lavender;
 }
 .fab{
     font-size: 50px;
@@ -82,16 +76,37 @@ footer{
 .fa-youtube:hover{
     color: #7c0606;
 }
-#subtitle{
+.subtitle{
     font-family: "lemon";
-    color: #343a40;
+    color: lavender;
     font-size: 40px;
-    border-bottom: 3px solid #343a40;
+    border-bottom: 3px solid lavender;
     padding-bottom: 10px;
 }
-#mapa-redes{
-    background-color: rgba(255, 255, 255, 0.7);
-    border-radius: 10px;
-    padding: 20px;
-    margin-top: 30px;
+a:link{
+    text-decoration: none;
+    outline: none;
+}
+
+/* Alterações Baseadas na mudança de tamanho */
+
+/* Celular */
+@media screen and (max-width: 345px) {
+    #logo {width: 150px;}
+    .icone {width: 75px;}
+    #mensagem {padding: 0px 10px;}
+}
+@media screen and (max-width: 570px) {
+    #subtitle {font-size: 60px;}
+}
+@media screen and (max-width: 470px) {
+    .fab {font-size: 40px;}
+    #subtitle {font-size: 40px;}
+    #title-mensagem {font-size: 40px;}
+}
+@media screen and (max-width: 800px) {
+    .icone {margin: 20px 0px;}
+}
+@media screen and (max-width: 992px) {
+    #Siga-nos {margin-bottom: 30px;}
 }

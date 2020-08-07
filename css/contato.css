@@ -9,7 +9,7 @@ header{
     transition-duration: 0.5s;
 }
 article{
-    background-image: url(../img/bg-contrib.jpeg);
+    background-image: url(../img/bg-index.jpg);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -47,12 +47,7 @@ a:link{
     font-family: "lemon";
     color: #343a40;
 }
-.text-passagem{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-style: italic;
-    font-size: 20px;
-}
-#opcoes{
+#contato{
     background-color: rgba(230, 230, 250, 0.8);
     border-radius: 10px;
 }
@@ -113,5 +108,4 @@ a:link{
 @media screen and (max-width: 380px) {
     #logo {width: 150px;}
     .icone {width: 75px;}
-    #subtitle {font-size: 25px;}
 }

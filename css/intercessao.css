@@ -2,17 +2,18 @@
     margin: 0;
     padding: 0;
 }
+a:link{
+    text-decoration: none;
+    outline: none;
+}
+footer{
+    text-align: center;
+}
 html{
     scroll-behavior: smooth;
 }
 header{
     transition-duration: 0.5s;
-}
-article{
-    background-image: url(../img/bg-contrib.jpeg);
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
 }
 @font-face{
     font-family: "lemon";
@@ -32,29 +33,27 @@ nav li:hover{
 }
 #subtitle{
     font-family: "lemon";
-    color: #343a40;
-    font-size: 80px;
-    padding-bottom: 10px;
-}
-footer{
+    font-size: 50px;
+    margin-top: 5px;
+    margin-bottom: 25px;
     text-align: center;
 }
-a:link{
-    text-decoration: none;
-    outline: none;
+body{
+    background-image: url(../img/bg-juniores.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#text-sobre{
+    background-color: rgb(112, 112, 112);
+    padding: 15px 30px;
+    border-radius: 7px;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .text{
     font-family: "lemon";
-    color: #343a40;
-}
-.text-passagem{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-style: italic;
-    font-size: 20px;
-}
-#opcoes{
-    background-color: rgba(230, 230, 250, 0.8);
-    border-radius: 10px;
 }
 .fab{
     font-size: 50px;
@@ -99,18 +98,13 @@ a:link{
 }
 @media screen and (max-width: 800px) {
     .icone {margin: 20px 0px;}
-    #subtitle {font-size: 60px;}
-}
-@media screen and (max-width: 570px) {
-    #subtitle {font-size: 40px;}
 }
 @media screen and (max-width: 470px) {
     .fab {font-size: 40px;}
-    #subtitle {font-size: 40px;}
-    #title-mensagem {font-size: 40px;}
+    #subtitle {font-size: 35px;}
 }
 /* Celular */
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 345px) {
     #logo {width: 150px;}
     .icone {width: 75px;}
     #subtitle {font-size: 25px;}

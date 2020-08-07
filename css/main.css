@@ -118,6 +118,9 @@ body{
     color: lavender;
     text-align: center;
 }
+#locale-horarios{
+    padding-top: 75px;
+}
 
 /* Alterações Baseadas na mudança de tamanho */
 

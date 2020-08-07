@@ -39,7 +39,8 @@ nav li:hover{
     text-align: center;
 }
 body{
-    background-image: url(../img/bg-ligateen.jpg);
+    background-image: url(../img/bg-juniores.jpg);
+    background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -105,4 +106,5 @@ body{
 @media screen and (max-width: 345px) {
     #logo {width: 150px;}
     .icone {width: 75px;}
+    #subtitle {font-size: 35px;}
 }

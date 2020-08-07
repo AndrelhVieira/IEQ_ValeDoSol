@@ -39,7 +39,8 @@ nav li:hover{
     text-align: center;
 }
 body{
-    background-image: url(../img/bg-ligateen.jpg);
+    background-image: url(../img/bg-criancas.jpg);
+    background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -100,6 +101,7 @@ body{
 }
 @media screen and (max-width: 470px) {
     .fab {font-size: 40px;}
+    #subtitle {font-size: 25px;}
 }
 /* Celular */
 @media screen and (max-width: 345px) {

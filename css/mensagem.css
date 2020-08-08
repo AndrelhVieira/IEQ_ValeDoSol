@@ -90,11 +90,11 @@ a:link{
 
 /* Alterações Baseadas na mudança de tamanho */
 
-/* Celular */
-@media screen and (max-width: 345px) {
-    #logo {width: 150px;}
-    .icone {width: 75px;}
-    #mensagem {padding: 0px 10px;}
+@media screen and (max-width: 992px) {
+    #Siga-nos {margin-bottom: 30px;}
+}
+@media screen and (max-width: 800px) {
+    .icone {margin: 20px 0px;}
 }
 @media screen and (max-width: 570px) {
     #subtitle {font-size: 60px;}
@@ -104,9 +104,10 @@ a:link{
     #subtitle {font-size: 40px;}
     #title-mensagem {font-size: 40px;}
 }
-@media screen and (max-width: 800px) {
-    .icone {margin: 20px 0px;}
-}
-@media screen and (max-width: 992px) {
-    #Siga-nos {margin-bottom: 30px;}
+/* Celular */
+@media screen and (max-width: 345px) {
+    #logo {width: 150px;}
+    .icone {width: 75px;}
+    #mensagem {padding: 0px 10px;}
+    .fab {font-size: 30px;}
 }

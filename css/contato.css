@@ -108,4 +108,5 @@ a:link{
 @media screen and (max-width: 380px) {
     #logo {width: 150px;}
     .icone {width: 75px;}
+    .fab {font-size: 30px;}
 }

@@ -38,9 +38,10 @@ nav li:hover{
     font-size: 60px;
     text-align: center;
 }
-#text-quem-somos{
+.text-quem-somos{
     color: lavender;
-    text-align: justify
+    text-align: justify;
+    margin: 10px 100px;
 }
 .subtitle{
     font-family: "lemon";
@@ -122,22 +123,26 @@ body{
     padding-top: 75px;
 }
 
-/* Alterações Baseadas na mudança de tamanho */
 
+/* Alterações Baseadas na mudança de tamanho */
+@media screen and (max-width: 992px) {
+    #Siga-nos {margin-bottom: 30px;}
+    .text-quem-somos {margin: 10px 50px;}
+}
+@media screen and (max-width: 800px) {
+    .icone {margin: 20px 0px;}
+    .text-quem-somos {margin: 10px 30px;}
+}
+@media screen and (max-width: 470px) {
+    .title-text {font-size: 40px;}
+    .fab {font-size: 40px;}
+    .text-quem-somos {margin: 10px 15px;}
+}
 /* Celular */
 @media screen and (max-width: 345px) {
     #logo {width: 150px;}
     .icone {width: 75px;}
     .subtitle {font-size: 30px;}
     .title-simbol {font-size: 25px;}
-}
-@media screen and (max-width: 800px) {
-    .icone {margin: 20px 0px;}
-}
-@media screen and (max-width: 470px) {
-    .title-text {font-size: 40px;}
-    .fab {font-size: 40px;}
-}
-@media screen and (max-width: 992px) {
-    #Siga-nos {margin-bottom: 30px;}
+    .fab {font-size: 30px;}
 }

@@ -45,6 +45,9 @@ footer{
     border-radius: 10px;
     padding: 0px 25px;
 }
+#conteudo-mensagem{
+    line-height: 30px;
+}
 .text{
     font-family: "lemon";
     color: lavender;

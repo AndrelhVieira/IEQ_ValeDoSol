@@ -146,6 +146,7 @@ body{
     .fab {font-size: 40px;}
     .text-quem-somos {margin: 10px 15px;}
     .text-mensagem {margin: 10px 15px;}
+    body {background: url(none);background-color: #ccc;}
 }
 /* Celular */
 @media screen and (max-width: 345px) {

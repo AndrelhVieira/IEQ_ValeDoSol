@@ -107,6 +107,7 @@ a:link{
     .fab {font-size: 40px;}
     #subtitle {font-size: 40px;}
     #title-mensagem {font-size: 40px;}
+    article {background: url(none); background-color: #232321;}
 }
 /* Celular */
 @media screen and (max-width: 345px) {

@@ -151,6 +151,7 @@ a:link {
     #title-mensagem {
         font-size: 40px;
     }
+    article {background: url(none);background-color: #eda881;}
 }
 
 /* Celular */

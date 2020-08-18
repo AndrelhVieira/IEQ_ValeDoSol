@@ -43,7 +43,8 @@ body{
     background-image: url(../img/bg-ligateen.jpg);
     background-attachment: fixed;
     background-position: center;
-    background-size: auto auto;
+    width: 100%;
+    height: 100%;
     background-repeat: no-repeat;
 }
 #text-sobre{

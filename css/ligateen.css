@@ -43,6 +43,7 @@ body{
     background-image: url(../img/bg-ligateen.jpg);
     background-position: center;
     background-size: auto auto;
+    background-repeat: no-repeat;
     background-attachment: fixed;
 }
 #text-sobre{
@@ -53,7 +54,7 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 #img{
-    min-height: normal !important;
+    min-height: 100px !important;
 }
 .text{
     font-family: "lemon";

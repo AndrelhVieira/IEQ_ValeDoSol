@@ -42,7 +42,7 @@ nav li:hover{
 body{
     background-image: url(../img/bg-ligateen.jpg);
     background-position: center;
-    background-size: cover;
+    background-size: auto auto;
     background-attachment: fixed;
 }
 #text-sobre{
@@ -51,6 +51,10 @@ body{
     border-radius: 7px;
     color: #fff;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#img{
+    width: 400px;
+    height: 400px;
 }
 .text{
     font-family: "lemon";

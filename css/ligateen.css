@@ -53,8 +53,7 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 #img{
-    width: 400px;
-    height: 400px;
+    min-height: normal !important;
 }
 .text{
     font-family: "lemon";

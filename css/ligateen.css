@@ -43,8 +43,8 @@ body{
     background-color: #cccccc;
 }
 #img{
-    width: 400px auto;
-    height: 400px auto;
+    width: auto 400px;
+    height: auto 400px;
 }
 #text-sobre{
     background-color: rgb(112, 112, 112);

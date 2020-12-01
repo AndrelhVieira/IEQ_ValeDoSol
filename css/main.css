@@ -116,10 +116,7 @@ a:link{
     padding: 25px;
 }
 body{
-    background-attachment: fixed;
-    background-image: url(../img/bg-index.jpg);
-    background-position: center;
-    background-size: cover;
+    background-color: #ccc;
 }
 #clique-aqui{
     color: lavender;

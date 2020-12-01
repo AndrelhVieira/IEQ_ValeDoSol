@@ -9,10 +9,7 @@ header{
     transition-duration: 0.5s;
 }
 article{
-    background-image: url(../img/bg-index.jpg);
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
+    background-color: #ccc;
 }
 @font-face{
     font-family: "lemon";
